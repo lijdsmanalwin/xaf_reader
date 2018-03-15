@@ -1,0 +1,19 @@
+Package: xaf_reader
+Type: Package
+Title: Read .xaf XML audit files
+Version: 0.0.01
+Authors@R: person("Alwin", "Lijdsman", email = "alwinlijdsman@outlook.com", role = c("aut", "cre"))
+Description: Reads .xaf audit files. Audit files are files which are mandatorily available in any financial software package in the Netherlands. Audit files contain all journal entry and general ledger data of a financial administration.
+  dplyr (>= 0.5.0),
+  xml2 (>= 1.1.1)
+Depends:
+    R (>= 3.3.2)
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr
