@@ -32,6 +32,11 @@ read_xaf <- function(path){
   
   # TODO: Convert file to flat dataframe
   # TODO: Decide on output structure (combination of transactionlines, ledgeraccounts, periods, etc.)
+  # TODO: Determine xafversion 
+  # Need possible versions and required checks
+  
+  # TODO: Convert file to flat dataframe
+  
   flat_xaf <- file
   
   return(flat_xaf)
